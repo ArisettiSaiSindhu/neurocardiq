@@ -4,8 +4,10 @@ import os
 import sys
 
 # Add phase_1 models path
-MODELS_DIR = os.path.join(os.path.dirname(__file__), '..', 'phase_1', 'models')
-DATA_DIR   = os.path.join(os.path.dirname(__file__), '..', 'phase_1', 'data')
+BASE_DIR = os.path.dirname(__file__)
+
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+DATA_DIR   = os.path.join(BASE_DIR, "data")
 
 sys.path.insert(0, os.path.dirname(__file__))
 from image_to_signal import (image_to_signal,
