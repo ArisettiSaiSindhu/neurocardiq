@@ -1,0 +1,30 @@
+# Environment
+.env
+*.env
+
+# Database
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Models (too large for GitHub — we'll handle separately)
+models/*.pkl
+data/*.npy
+
+# Uploads
+uploads/
+outputs/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
