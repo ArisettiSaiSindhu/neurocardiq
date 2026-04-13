@@ -2,7 +2,13 @@ from flask import (Flask, request, jsonify, render_template,
                    redirect, url_for, flash, Response, send_file)
 from flask_login import login_required, current_user
 from flask_bcrypt import Bcrypt
-import os, uuid, traceback, json, io, csv
+import os
+import uuid
+import traceback
+import json
+import io
+import csv
+
 from datetime import datetime
 from dotenv import load_dotenv
 from predictor import predict_risk
@@ -10,9 +16,6 @@ from admin import admin_bp
 from database import db, User, Profile, Analysis
 from auth     import auth, bcrypt, login_manager
 load_dotenv()   # ← loads .env for local dev
-
-from database import db, User, Profile, Analysis
-from auth     import auth, bcrypt, login_manager
 
 # ─────────────────────────────────────────────────────────────
 # APP FACTORY
