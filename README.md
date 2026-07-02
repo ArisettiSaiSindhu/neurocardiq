@@ -194,7 +194,7 @@ Example:
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mental-health-risk-prediction.git
+git clone https://github.com/ArisettiSaiSindhu/neurocardiq.git
 ```
 
 Install dependencies
@@ -230,8 +230,8 @@ python app.py
 
 AI & Machine Learning Undergraduate
 
-- 💼 LinkedIn: YOUR_LINKEDIN
-- 💻 GitHub: YOUR_GITHUB
+- 💼 LinkedIn: https://www.linkedin.com/in/sai-sindhu-arisetti/
+- 💻 GitHub: https://github.com/ArisettiSaiSindhu
 
 ---
 
